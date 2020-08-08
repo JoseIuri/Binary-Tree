@@ -51,7 +51,7 @@ int print_tree()
 int main() 
 { 
     root('A'); 
-    insert_left('B',0); 
+    set_left('B',0); 
     set_right('C', 0); 
     set_left('D', 1); 
     set_right('E', 1); 
